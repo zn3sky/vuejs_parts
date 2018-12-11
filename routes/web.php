@@ -12,5 +12,21 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
+});
+
+Route::get('/form', function () {
+    return view('form');
+});
+
+Route::get('/list', function () {
+    return view('list');
+});
+
+Route::get('/search', function () {
+    return view('search');
+});
+
+Route::get('/graph', function () {
+    return view('graph');
 });
