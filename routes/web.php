@@ -30,3 +30,7 @@ Route::get('/search', function () {
 Route::get('/graph', function () {
     return view('graph');
 });
+
+Route::get('/map', function () {
+    return view('map');
+});
