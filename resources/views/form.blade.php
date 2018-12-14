@@ -62,21 +62,22 @@
                 margin-bottom: 30px;
             }
         </style>
+    <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
     </head>
     <body>
         <div class="flex-center position-ref full-height">
             <div class="content">
                 <div class="title m-b-md">
-                   Vue.js Parts 
+                   Vue.js Parts - form
                 </div>
 
-                <div class="links">
-                    <a href="#">form</a>
-                    <a href="#">list</a>
-                    <a href="#">search</a>
-                    <a href="#">graph</a>
+		<div id="app">
+		   <div class="container">
+                     <example-component></example-component>
+     		   </div>
                 </div>
             </div>
         </div>
     </body>
+    <script src="{{ mix('js/app.js') }}"></script>
 </html>
